@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="popup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Extension</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Todo List</h1>
-  <input type="text" id="newTodo">
-  <button id="addTodo">Add Task</button>
-  <ul id="todoList"></ul>
-  <script src="popup.js"></script>
+    <div class="container">
+        <h1>Today</h1>
+        <div class="add-task">
+            <input type="text" id="newTodo" placeholder="Add a task">
+            <button id="addTodo">+</button>
+        </div>
+        <ul id="todoList"></ul>
+    </div>
+    <script src="popup.js"></script>
 </body>
 </html>
